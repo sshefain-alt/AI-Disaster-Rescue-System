@@ -1,7 +1,3 @@
-# AI-Disaster-Rescue-System
-An AI-powered disaster management system leveraging deep learning and computer vision to streamline emergency response. It uses real-time computer vision (YOLOv5) to detect victims in drone or satellite footage, processes live sensor data to predict risk zones, and applies AI routing algorithms to guide rescue teams efficiently.
-
-
 # AI Disaster Rescue System
 
 An intelligent hybrid disaster management and rescue simulation platform designed to support emergency response operations in dynamic and uncertain environments.
@@ -20,33 +16,33 @@ The AI Disaster Rescue System combines multiple Artificial Intelligence techniqu
 
 ### Intelligent Victim Selection
 Selects the most suitable victim based on:
-#NAME?
-#NAME?
+- Severity
+- Distance
 - Risk level
 - Fuzzy logic priority
 
 ### Pathfinding Algorithms
-#NAME?
-#NAME?
-#NAME?
-#NAME?
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- A* Search
+- Risk-Aware A* Search
 - Greedy Best-First Search
 - Hill Climbing
 
 ### CSP Resource Allocation
 - Ambulance assignment using Backtracking
-#NAME?
+- MRV-inspired heuristic
 - Capacity constraints enforced
 - Resource allocation optimization
 
 ### Machine Learning Integration
 Three ML models for rescue priority prediction:
-#NAME?
+- k-Nearest Neighbors (kNN)
 - Naive Bayes
 - Decision Tree
 
 ### Fuzzy Logic for Uncertainty Handling
-#NAME?
+- Fuzzification
 - Fuzzy inference rules
 - Uncertainty handling based on distance, risk, severity, and blockage probability
 
@@ -106,10 +102,10 @@ streamlit run app.py
 ## Machine Learning Evaluation
 
 The system evaluates ML models using:
-#NAME?
-#NAME?
-#NAME?
-#NAME?
+- Accuracy
+- Precision
+- Recall
+- F1-score
 - Confusion Matrix
 
 ## Dynamic Scenarios
@@ -134,15 +130,14 @@ The project supports multiple real-time dynamic scenarios:
 
 ## Future Improvements
 
-#NAME?
-#NAME?
+- Real-time map integration
+- Multi-agent coordination
 - Reinforcement Learning
 - Deep Learning-based prediction
 - Live disaster sensor integration
 - GPS integration
-#NAME?
+- Real-time traffic data
 
 ## License
 
 This project is developed for University AI Lab purposes.
-<img width="91" height="3433" alt="image" src="https://github.com/user-attachments/assets/b83c613d-f0fa-44b9-b915-1a3d3a9a0ece" />
